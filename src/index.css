@@ -1,8 +1,14 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
@@ -131,10 +137,10 @@ button.yammi-button:hover {
   padding-left: 22px;
 }
 .recipe-list-grid {
-  margin-top: 36px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  width: 100%;
 }
 .recipe-card {
   background: #fff;
@@ -860,5 +866,16 @@ button.yammi-button:hover {
   .community-grid,
   .users-grid {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-content {
+    margin-left: 0;
   }
 }
