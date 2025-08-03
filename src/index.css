@@ -879,3 +879,22 @@ button.yammi-button:hover {
     margin-left: 0;
   }
 }
+@media (max-width: 800px) {
+  .main-content {
+    margin-left: 200px; /* sidebar širina ostaje ista */
+    padding: 16px;
+    overflow-x: hidden;
+  }
+
+  .recipe-form-card,
+  .add-recipe-form,
+  .modal-content,
+  .settings-page,
+  .budget-page {
+    max-width: 100%;
+  }
+
+  .recipe-list-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
