@@ -946,3 +946,22 @@ button.yammi-button:hover {
     box-sizing: border-box;
   }
 }
+@media (max-width: 800px) {
+  .recipe-list-grid,
+  .add-recipe-form,
+  .recipe-form-card {
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: auto;
+    box-sizing: border-box;
+  }
+
+  .recipe-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .main-content {
+    overflow-x: auto;
+  }
+}
