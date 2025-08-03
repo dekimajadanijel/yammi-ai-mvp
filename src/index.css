@@ -834,134 +834,18 @@ button.yammi-button:hover {
   font-weight: bold;
   cursor: pointer;
 }
-/* DODATAK: Puna mobilna podrška */
-@media (max-width: 768px) {
-  .app-container {
+@media (max-width: 800px) {
+  .recipe-list-grid {
+    display: flex;
     flex-direction: column;
-  }
-
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-    padding: 16px;
-    text-align: center;
-  }
-
-  .main-content {
-    margin-left: 0;
-    padding: 16px;
-  }
-
-  .home-page {
-    margin-left: 0;
-    padding: 24px 16px;
-  }
-
-  .settings-page {
-    margin-left: 0;
-    padding: 24px 16px;
-  }
-
-  .community-grid,
-  .users-grid {
-    grid-template-columns: 1fr;
-  }
-}
-@media (max-width: 768px) {
-  .sidebar {
-    position: static;
-    width: 100%;
-    height: auto;
-  }
-
-  .main-content {
-    margin-left: 0;
-  }
-}
-@media (max-width: 800px) {
-  .main-content {
-    margin-left: 200px; /* sidebar širina ostaje ista */
-    padding: 16px;
-    overflow-x: hidden;
-  }
-
-  .recipe-form-card,
-  .add-recipe-form,
-  .modal-content,
-  .settings-page,
-  .budget-page {
-    max-width: 100%;
-  }
-
-  .recipe-list-grid {
-    grid-template-columns: 1fr !important;
-  }
-}
-@media (max-width: 800px) {
-  .main-content {
-    margin-left: 0 !important; /* skida fiksni razmak za sidebar */
-    padding: 16px;
-  }
-
-  .sidebar {
-    position: static;
-    width: 100%;
-    height: auto;
-  }
-
-  .recipe-form-card,
-  .add-recipe-form,
-  .modal-content,
-  .settings-page,
-  .budget-page,
-  .recipe-card {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-
-  .recipe-list-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-}
-@media (max-width: 800px) {
-  .recipe-list-grid {
-    grid-template-columns: 1fr;
     gap: 16px;
   }
 
-  .recipe-card {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-
+  .recipe-card,
   .add-recipe-form,
   .recipe-form-card {
     width: 100%;
     max-width: 100%;
-    padding: 16px;
     box-sizing: border-box;
-  }
-}
-@media (max-width: 800px) {
-  .recipe-list-grid,
-  .add-recipe-form,
-  .recipe-form-card {
-    width: 100vw;
-    max-width: 100vw;
-    overflow-x: auto;
-    box-sizing: border-box;
-  }
-
-  .recipe-card {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .main-content {
-    overflow-x: auto;
   }
 }
