@@ -828,3 +828,37 @@ button.yammi-button:hover {
   font-weight: bold;
   cursor: pointer;
 }
+/* DODATAK: Puna mobilna podrška */
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .main-content {
+    margin-left: 0;
+    padding: 16px;
+  }
+
+  .home-page {
+    margin-left: 0;
+    padding: 24px 16px;
+  }
+
+  .settings-page {
+    margin-left: 0;
+    padding: 24px 16px;
+  }
+
+  .community-grid,
+  .users-grid {
+    grid-template-columns: 1fr;
+  }
+}
