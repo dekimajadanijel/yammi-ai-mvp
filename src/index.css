@@ -926,3 +926,23 @@ button.yammi-button:hover {
     gap: 16px;
   }
 }
+@media (max-width: 800px) {
+  .recipe-list-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .recipe-card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .add-recipe-form,
+  .recipe-form-card {
+    width: 100%;
+    max-width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+}
