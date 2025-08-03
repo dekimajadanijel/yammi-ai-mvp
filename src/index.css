@@ -898,3 +898,31 @@ button.yammi-button:hover {
     grid-template-columns: 1fr !important;
   }
 }
+@media (max-width: 800px) {
+  .main-content {
+    margin-left: 0 !important; /* skida fiksni razmak za sidebar */
+    padding: 16px;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .recipe-form-card,
+  .add-recipe-form,
+  .modal-content,
+  .settings-page,
+  .budget-page,
+  .recipe-card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .recipe-list-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
