@@ -1,0 +1,26 @@
+:root {
+  --color-primary: #E94E3C;
+  --color-accent: #FFEB3B;
+  --color-health: #8BC34A;
+  --color-background: #FAFAFA;
+  --color-text: #212121;
+}:root {
+  --color-primary: #E94E3C;
+  --color-accent: #FFEB3B;
+  --color-health: #8BC34A;
+  --color-background: #FAFAFA;
+  --color-text: #212121;
+  --yammi-red: #E63946;
+  --yammi-yellow: #F1C40F;
+  --yammi-olive: #808000;
+}:root {
+  --color-primary: #E94E3C;
+  --color-accent: #FFEB3B;
+  --color-health: #8BC34A;
+  --color-background: #FAFAFA;
+  --color-text: #212121;
+
+  --yammi-red: #E63946;
+  --yammi-yellow: #F1C40F;
+  --yammi-olive: #808000;
+}
